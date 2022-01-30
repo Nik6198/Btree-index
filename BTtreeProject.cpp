@@ -35,8 +35,8 @@ int main()
 
 //File Handling
   int offset=0;
-  ifstream myfile ("example1.txt");
-  ifstream my("example1.txt");
+  ifstream myfile ("/records/example1.txt");
+  ifstream my("/records/example1.txt");
   while(!myfile.eof()) //Temporarily trying with 10 records from file
   {
   	int i=0;
